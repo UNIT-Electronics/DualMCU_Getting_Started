@@ -35,7 +35,7 @@ The main objective of this repository is to provide a comprehensive and structur
 
 Before diving into the proposed practices, it is crucial to familiarize yourself with the features and functionalities offered by the UNIT DUALMCU development board. This will enable you to make the most of its capabilities. The following section provides a general overview of its characteristics.
 ## Content
-- [DuaMCU Introduction to MycroPython](/)
+- [DuaMCU Introduction to MycroPython](/dual)
 - [Board Features](/dual/docs/1-descripcion-general/)
 - [MicroPython & ESP32](/dual/docs/2-micropython/)
 - [LED Blinking](/dual/docs/3-led_intermitente/)
