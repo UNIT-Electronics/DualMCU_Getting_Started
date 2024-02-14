@@ -26,7 +26,7 @@ Remember, when working with DualMCU, you have the flexibility to interchange bet
 </div>
 
 >**NOTE**
-> If the UNIT DUALMCU ESP32 is not recognized, it will be necessary to install the [ CH340 DRIVER](/docs/3-Led_intermitente/images/CH341SER.EXE). 
+> If the UNIT DUALMCU ESP32 is not recognized, it will be necessary to install the [ CH340 DRIVER](/dual/docs/3-Led_intermitente/images/CH341SER.EXE). 
 
 
 
@@ -112,7 +112,7 @@ This simple step introduces you to the MicroPython environment and establishes t
 
 
 
-# Next course [LED Blinking](/docs/3-led_intermitente/)
+# Next course [LED Blinking](/dual/docs/3-led_intermitente/)
 
 
 

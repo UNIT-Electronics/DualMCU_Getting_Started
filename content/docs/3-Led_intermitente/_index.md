@@ -114,7 +114,7 @@ These LED flashing exercises on the DualMCU board not only serve as an introduct
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
-# Continue with the course [ Temperaure Sensor (ADC)](/docs/4-sensor_de_temperatura/)
+# Continue with the course [ Temperaure Sensor (ADC)](/dual/docs/4-sensor_de_temperatura/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 

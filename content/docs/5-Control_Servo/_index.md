@@ -159,6 +159,7 @@ To further advance these skills, it is recommended to review and experiment with
 
 
 In order to enhance your skills, you can check the example related to PWM in the [DualMCU repository](https://github.com/UNIT-Electronics/DualMCU/blob/main/Examples/Micropython%20Basics/RP2040/02.PWM/PWM.py)
+
 # Continue with the course [Alarm System](/dual/docs/6-sistema_de_alarma/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.

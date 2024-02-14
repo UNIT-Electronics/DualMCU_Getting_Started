@@ -156,7 +156,7 @@ This practice allowed for practical insights into reading analog temperature sen
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
 
-# Continue with the course [Servo Control](/docs/5-control_servo/)
+# Continue with the course [Servo Control](/dual/docs/5-control_servo/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 ---
