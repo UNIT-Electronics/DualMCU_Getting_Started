@@ -95,7 +95,7 @@ In the context of technical features, the DualMCU stands out as a unique develop
 <table>
     <tr>
         <td>
-            <img src="/docs/1-Descripcion-general/images/dual.png" alt="Block Diagram" title="Block Diagram" style="width: 500px;">
+            <img src="/dual/docs/1-Descripcion-general/images/dual.png" alt="Block Diagram" title="Block Diagram" style="width: 500px;">
         </td>
         <td>
             <strong>Manufacturer:</strong> UNIT ELECTRONICS<br>
@@ -136,7 +136,7 @@ Now, let's focus on the layout of the board elements, as it is crucial to unders
 |  JST2  |ESP32 I2C JST Conector   |   JST3  | JST Connector for LiPo Battery |
 |  SW2  |USB Communication Selector   |   SW3  | UART DIP Switch |
 
-**Back View**![Block_Diagram](/docs/1-Descripcion-general/images/Back_View_DualMCU_Topology.jpg "Block Diagram")
+**Back View**![Block_Diagram](/dual/docs/1-Descripcion-general/images/Back_View_DualMCU_Topology.jpg "Block Diagram")
 
 
 | Ref. | Description | Ref. | Description

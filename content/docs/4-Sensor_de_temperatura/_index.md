@@ -47,13 +47,13 @@ For using the ESP32 microcontroller, you need the additional materials mentioned
 > **NOTE:** Remember that when working with the DualMCU board, you can interchange between microcontrollers using interrupt-driven changes.
 
 <div style="text-align: center;">
-    <img src="/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 To proceed, here is the diagram illustrating the connection between the LM35 temperature sensor and the DualMCU development board using the RP2040 microcontroller.
 
 <div style="text-align: center;">
-    <img src="/docs/4-Sensor_de_temperatura/images/AR3578_Diagrama_RP2.jpg" alt="Block Diagram" title="Block Diagram" >
+    <img src="/dual/docs/4-Sensor_de_temperatura/images/AR3578_Diagrama_RP2.jpg" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 If you prentent do the practicies using the microcontroller ESP32  use the next configuration:
@@ -147,7 +147,7 @@ In the case of the ESP32, the code also configures the analog input for a specif
 ### Results
 You can observe the temperature in degrees Celsius by monitoring the serial output.
 
-![](/docs/4-Sensor_de_temperatura/images/sensor.png)
+![](/dual/docs/4-Sensor_de_temperatura/images/sensor.png)
 
 ## Conclusions
 This practice allowed for practical insights into reading analog temperature sensors and configuring the ADC in microcontrollers. It demonstrated how these microcontrollers can not only read data but also interact with external devices. Such capabilities are fundamental for developing projects that involve the measurement and control of analog variables in electronic environments.

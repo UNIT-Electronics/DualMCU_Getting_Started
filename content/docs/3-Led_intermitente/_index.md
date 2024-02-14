@@ -31,15 +31,15 @@ To carry out the program implementation, two RGB LEDs will be employed  are full
 ## Connection Diagram
 To proceed, simply connect the board DUALMCU to your laptop or desktop computer using a USB Type-C cable.
 
-![pc](/docs/3-Led_intermitente/images/pc_dual.jpg)
+![pc](/dual/docs/3-Led_intermitente/images/pc_dual.jpg)
 
 ## Software 
 After connecting the DUALMCU unit to the computer, proceed to turn on the device and select the desired microcontroller (MCU).
        <div style="text-align: center;">
-       <img src="/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
+       <img src="/dual/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
        </div>
 
-> **NOTE**  In case the DUALMCU board is not recognized, it will be necessary to install the [CH340 driver](/docs/3-Led_intermitente/images/CH341SER.EXE). This driver is crucial for establishing communication and programming with the ESP32 microcontroller.
+> **NOTE**  In case the DUALMCU board is not recognized, it will be necessary to install the [CH340 driver](/dual/docs/3-Led_intermitente/images/CH341SER.EXE). This driver is crucial for establishing communication and programming with the ESP32 microcontroller.
 
 ## Code
 
@@ -81,7 +81,7 @@ This code is intended to test the configuration of the installed MicroPython for
 ## Results
 Below is the function's code demonstrated in the following gif:
 
-![](/docs/3-Led_intermitente/images/blink_led2.gif)
+![](/dual/docs/3-Led_intermitente/images/blink_led2.gif)
 
 ## Interaction with the RP2040
 1. Ensure that the selector is always set to the position designated for RP2040 on the DualMCU.

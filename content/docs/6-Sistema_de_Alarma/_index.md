@@ -32,7 +32,7 @@ To proceed, here's a connection diagram between the Motion sensor AM312 and the 
 
 Additionally, for programming the DualMCU, select the configuration for using ESP32.
 <div style="text-align: center;">
-<img src="/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
+<img src="/dual/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
 </div>
 
 ## Code
@@ -68,7 +68,7 @@ while True:
 Upon running the script, you will first receive a system-ready message. Subsequently, if motion is detected, a message will be sent to the buzzer, triggering an alert for the movement.
  
 <div style="text-align: center;">
-<img src="/docs/6-Sistema_de_Alarma/images/cap.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+<img src="/dual/docs/6-Sistema_de_Alarma/images/cap.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ## Conclusions 
@@ -78,7 +78,7 @@ Creating a system to recognize the GPIO terminal I/O configuration of the DualMC
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
-# Continue with the course [Control Motors DC](/docs/7-control_de_motores_dc/)
+# Continue with the course [Control Motors DC](/dual/docs/7-control_de_motores_dc/)
 
 
 

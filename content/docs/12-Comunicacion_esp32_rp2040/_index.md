@@ -26,18 +26,18 @@ To carry out the program implementation, two RGB LEDs will be employed  are full
 ### Connection Diagram 
 for continue, present to connection diagram, the which is a simple: only you need connect the board DualMCU to laptop or computer desktop using to cable USB Type- C
 
-![pc](/docs/3-Led_intermitente/images/pc_dual.jpg)
+![pc](/dual/docs/3-Led_intermitente/images/pc_dual.jpg)
 
 Change the interruptor DIP UART to "ON" for this configration.
        <div style="text-align: center;">
-       <img src="/docs/12-Comunicacion_esp32_rp2040/images/SEL.png" alt="Block Diagram" title="Block Diagram" >
+       <img src="/dual/docs/12-Comunicacion_esp32_rp2040/images/SEL.png" alt="Block Diagram" title="Block Diagram" >
        </div>
 This practicies, you will need change between microcontrolles. Remember using selectros can change between microcontroller.
 After to connect to board DualMCU, continue to on device y select the microcontroller especifi for use.
 >**NOTE**
 > Remember that when working with the DualMCU, you can switch between microcontrollers using the change switch. For this practice, we will only use the **RP2040** microcontroller, so you should switch the change switch to position "A".
 <div style="text-align: center;">
-    <img src="/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ## Code
@@ -94,7 +94,7 @@ Save the code in the RP2040, selecting the **Raspberry Pi Pico** board.
 
 > **NOTE**: For this part, we will only use the **ESP32** microcontroller, so you should switch the change switch to position "B".
 <div style="text-align: center;">
-    <img src="/docs/2-Micropython/images/selector.png" alt="Switch" title="Switch" style="width: 600px;">
+    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Switch" title="Switch" style="width: 600px;">
 </div>
 
 Copy and paste the next code:
@@ -159,7 +159,7 @@ while True:
 
 run to code of ESP32  has THAT show to data on send for  RP2040.
 <div style="text-align: center;">
-<img src="/docs/12-Comunicacion_esp32_rp2040/images/shell1.png" alt="Block Diagram" title="Block Diagram" >
+<img src="/dual/docs/12-Comunicacion_esp32_rp2040/images/shell1.png" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 
@@ -167,7 +167,7 @@ run to code of ESP32  has THAT show to data on send for  RP2040.
 
 With brief results, the control of communication by JSON is a practice that benefits communication in the aspect that microcontrollers allow its use without external software components, so its implementation is practical. The results of this communication allow us to know the possibilities of the DUALMCU.
 <div style="text-align: center;">
-<img src="/docs/12-Comunicacion_esp32_rp2040/images/dual.gif" alt="Block Diagram" title="Block Diagram" >
+<img src="/dual/docs/12-Comunicacion_esp32_rp2040/images/dual.gif" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 ### Conclusions

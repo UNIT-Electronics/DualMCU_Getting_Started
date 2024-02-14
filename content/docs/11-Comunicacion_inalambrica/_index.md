@@ -30,7 +30,7 @@ The DualMCU board leverages the functionality of the ESP32 microcontroller as bo
 >**NOTE**
 > Remember that when working with the DualMCU, you can switch between microcontrollers using the change switch. For this practice, we will only use the **ESP32** microcontroller, so you should switch the change switch to position "B".
 <div style="text-align: center;">
-    <img src="/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ### Software
@@ -58,7 +58,7 @@ node -v
 ```
 
 <div style="text-align: center;">
-    <img src="/docs/11-Comunicacion_inalambrica/images/node_version.png" alt="Block Diagram" title="Block Diagram" >
+    <img src="/dual/docs/11-Comunicacion_inalambrica/images/node_version.png" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 You will see the installed version of Node.js. Next, verify the version of NPM using this command.
@@ -67,7 +67,7 @@ You will see the installed version of Node.js. Next, verify the version of NPM u
 npm -v
 ```
 <div style="text-align: center;">
-    <img src="/docs/11-Comunicacion_inalambrica/images/npm_versiom.png" alt="Block Diagram" title="Block Diagram">
+    <img src="/dual/docs/11-Comunicacion_inalambrica/images/npm_versiom.png" alt="Block Diagram" title="Block Diagram">
     </div>
 
 # Basic Use
@@ -98,7 +98,7 @@ You will see the text "Hello World!"
 > **NOTE** 
 >In some cases, when trying to access externally, a pop-up window may appear. You should allow access to Node.js through your firewall.
 
->![Firewall Popup Window](/docs/11-Comunicacion_inalambrica/images/firewall_promt.png)
+>![Firewall Popup Window](/dual/docs/11-Comunicacion_inalambrica/images/firewall_promt.png)
 ## Host Configuration
 
 Download or clone the repository. Find the example file in the [Control_web_panel](../Control_web_panel/) directory. As mentioned before regarding the environment configuration, you should run the file app.js with the following steps:
@@ -117,7 +117,7 @@ Servidor en funcionamiento en 0.0.0.0:3000
 
  > http://localhost:8080
 
-![Image](/docs/11-Comunicacion_inalambrica/images/web_localhost.png)
+![Image](/dual/docs/11-Comunicacion_inalambrica/images/web_localhost.png)
 
 ## Client Configuration
 
@@ -317,14 +317,14 @@ Dirección IP: 192.168.0.10
 Puedes acceder a esta dirección IP desde cualquier dispositivo en la misma red.
 ```
 
-![ESP32](/docs/11-Comunicacion_inalambrica/images/SOY_EL_esp32.png)
+![ESP32](/dual/docs/11-Comunicacion_inalambrica/images/SOY_EL_esp32.png)
 
 
 
 The displayed interface controls the LED 25 of the ESP32 and allows to check the functionality of the project.
 
 Finally, the link with the interface integrated with the sending of information by the potentiometer will look something like this:
-![Interfaz](/docs/11-Comunicacion_inalambrica/images/output.gif)
+![Interfaz](/dual/docs/11-Comunicacion_inalambrica/images/output.gif)
 
 
 ### Conclusion
@@ -334,7 +334,7 @@ The practice carried out with DualMCU as a client and server demonstrates the ve
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
 
-# Continue with the course [ Communication Between Two Microcontrollers](/docs/12-comunicacion_esp32_rp2040/)
+# Continue with the course [ Communication Between Two Microcontrollers](/dual/docs/12-comunicacion_esp32_rp2040/)
 
 ###  DualMCU ESP32+RP2040 
 
