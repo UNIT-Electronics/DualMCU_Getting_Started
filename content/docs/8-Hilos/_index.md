@@ -41,7 +41,13 @@ The code creates two threads: one to increment a shared variable and another to 
 
 The threads run for 10 seconds before terminating.
 
-
+<div style="text-align: right;">
+    <a href="/dual/docs/8-Hilos/code/unitRP2040_threads.py" download="unitESP32_threads.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitESP32.py
+        </button>
+    </a>
+</div>
 
 ```py
 '''

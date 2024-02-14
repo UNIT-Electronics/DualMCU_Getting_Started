@@ -78,6 +78,14 @@ Once the connections for a direct current (DC) motor are made, you can control t
     </div>
 
 
+<div style="text-align: right;">
+    <a href="/dual/docs/7-Control_de_motores_DC/code/unitRP2040_motors1.py" download="unitRP2040_motors1.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitRP2040_motors1.py
+        </button>
+    </a>
+</div>
+
 ```python
 from machine import Pin
 import time
@@ -117,6 +125,13 @@ The next step is to control the motor speed, for which you will need to use PWM 
 
 #### Check the PWM values for different speeds, starting with the minimum and maximum values.
 
+<div style="text-align: right;">
+    <a href="/dual/docs/7-Control_de_motores_DC/code/unitRP2040_motors2.py" download="unitRP2040_motors2.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitRP2040_motors2.py
+        </button>
+    </a>
+</div>
 
 ```python
 from machine import Pin, PWM
@@ -176,6 +191,14 @@ Deciding which workspace information to collect
 Gathering workspace info
 
 Based on the previous codes, we can control two DC motors at the same time using the L298N driver with the help of the following code, where we control the speed, direction, and the turning on and off of the motors.
+
+<div style="text-align: right;">
+    <a href="/dual/docs/7-Control_de_motores_DC/code/unitRP2040_motors3.py" download="unitRP2040_motors3.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitRP2040_motors3.py
+        </button>
+    </a>
+</div>
 
 ```py
 from machine import Pin, PWM

@@ -44,6 +44,14 @@ After to connect to board DualMCU, continue to on device y select the microcontr
 
 The process is divided into two parts. The first section involves loading code onto the RP2040; select the board in the COM section on the lower right.
 
+<div style="text-align: right;">
+    <a href="/dual/docs/12-Comunicacion_esp32_rp2040/codes/unitR2040_send.py" download="unitR2040_send.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitR2040_send.py
+        </button>
+    </a>
+</div>
+
 ```python
 '''
 rp2040
@@ -99,6 +107,13 @@ Save the code in the RP2040, selecting the **Raspberry Pi Pico** board.
 
 Copy and paste the next code:
 
+<div style="text-align: right;">
+    <a href="/dual/docs/12-Comunicacion_esp32_rp2040/codes/unitESP32.py" download="unitESP32.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitESP32.py
+        </button>
+    </a>
+</div>
 ```py
 '''
 ESP32

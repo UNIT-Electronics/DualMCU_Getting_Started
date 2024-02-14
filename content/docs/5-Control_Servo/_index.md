@@ -44,6 +44,13 @@ To continue, this section presents a connection diagram, which is straightforwar
 ###  Code
 
 The code serves as an example for RP2040, configuring the output destined for the servo motor and controlling it using the GPIO 0 output.
+<div style="text-align: right;">
+    <a href="/dual/docs/5-Control_Servo/code/unitRP2040_pwm.py" download="unitRP2040_pwm.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitRP2040_pwm.py
+        </button>
+    </a>
+</div>
 
 ```python
 '''
@@ -94,6 +101,13 @@ except KeyboardInterrupt:
 The code provides a solid foundation for controlling servo motors with RP2040 and can be easily adapted to the specific characteristics of other servo motors. The ability to configure parameters such as frequency and angles makes this code versatile and applicable to a variety of projects that require precise control of servo motors.
 
 
+<div style="text-align: right;">
+    <a href="/dual/docs/5-Control_Servo/code/unitRP2040_servo.py" download="unitRP2040_servo.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitRP2040_servo.py
+        </button>
+    </a>
+</div>
 
 ```py
 import machine

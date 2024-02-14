@@ -44,6 +44,13 @@ After connecting the DUALMCU unit to the computer, proceed to turn on the device
 ## Code
 
 Use the following code to verify the functionality of the MicroPython firmware installation. Ensure that the ESP32 microcontroller is selected, and load the following code.
+<div style="text-align: right;">
+    <a href="/dual/docs/3-Led_intermitente/code/blink.py" download="blink.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download blink.py
+        </button>
+    </a>
+</div>
 
 ```py
 '''

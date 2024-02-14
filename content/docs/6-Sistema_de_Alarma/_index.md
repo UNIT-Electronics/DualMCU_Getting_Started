@@ -37,6 +37,15 @@ Additionally, for programming the DualMCU, select the configuration for using ES
 
 ## Code
 The following code manages the motion sensor and activates the audible alarm using a buzzer. This code can serve as a starting point for creating a more advanced system.
+
+<div style="text-align: right;">
+    <a href="/dual/docs/6-Sistema_de_Alarma/code/unitRP2040_pir.py" download="unitESP32_pir.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitESP32_pir.py
+        </button>
+    </a>
+</div> 
+
 ```python
  
 from machine import Pin

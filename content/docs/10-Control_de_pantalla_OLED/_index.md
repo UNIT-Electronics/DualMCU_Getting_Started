@@ -57,6 +57,8 @@ To simplify programming with  OLED screen, use a specific library for OLED contr
     </a>
 </div>
 
+
+
 ```py
 # MicroPython SSD1306 OLED driver, I2C and SPI interfaces
 
@@ -228,6 +230,13 @@ To save the library code on the DualMCU board, you should use the name `ssd1306.
 
 
 Once you have saved the program as instructed before, proceed to open a new file for programming. Use the following code, and the display will show the text “UNIT ELECTRONICS”:
+<div style="text-align: right;">
+    <a href="/dual/docs/10-Control_de_pantalla_OLED/code/unitRP2040_oled.py" download="unitESP32_oled.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitESP32_oled.py
+        </button>
+    </a>
+</div>
 
 ```py 
 '''
@@ -275,6 +284,14 @@ Now it will be your turn to display information from a sensor. Additionally, we 
 3. Initialize, read data from environmental sensors (of your choice), and display the data on the screen.
 
 Keep in mind that this is just a framework, and you will need to implement the `getCurrentTime`, `createCountdown`, and `readSensorData` functions according to your needs. You will also need to include the appropriate libraries for your microcontroller and sensors.
+
+<div style="text-align: right;">
+    <a href="/dual/docs/10-Control_de_pantalla_OLED/code/unitRP2040_oled2.py" download="unitESP32_oled2.py">
+        <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+            Download unitESP32_oled2.py
+        </button>
+    </a>
+</div>
 
 
 ```python
