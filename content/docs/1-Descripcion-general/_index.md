@@ -119,7 +119,7 @@ In the context of technical features, the DualMCU stands out as a unique develop
 
 Now, let's focus on the layout of the board elements, as it is crucial to understand the location of each component for ease of use.
 
-**Front View**![Block_Diagram](/dual//docs/1-Descripcion-general/images/Front_View_DualMCU_Topology.jpg "Block Diagram")
+**Front View**![Block_Diagram](/dual/docs/1-Descripcion-general/images/Front_View_DualMCU_Topology.jpg "Block Diagram")
 
 | Ref. | Description | Ref. | Description
 |----------|----------|----------|-------|
