@@ -336,8 +336,6 @@ Puedes acceder a esta dirección IP desde cualquier dispositivo en la misma red.
 
 ![ESP32](/dual/docs/11-Comunicacion_inalambrica/images/SOY_EL_esp32.png)
 
-
-
 The displayed interface controls the LED 25 of the ESP32 and allows to check the functionality of the project.
 
 Finally, the link with the interface integrated with the sending of information by the potentiometer will look something like this:
