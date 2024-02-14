@@ -28,7 +28,7 @@ The alarm system is fundamental for maintaining security in a space or property.
 ###  Connection Diagram
 
 To proceed, here's a connection diagram between the Motion sensor AM312 and the development board.
-![Connection Diagram](/docs/6-Sistema_de_Alarma/images/DIAGRAMA.jpg)
+![Connection Diagram](/dual/docs/6-Sistema_de_Alarma/images/DIAGRAMA.jpg)
 
 Additionally, for programming the DualMCU, select the configuration for using ESP32.
 <div style="text-align: center;">
