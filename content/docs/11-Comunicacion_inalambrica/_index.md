@@ -84,7 +84,8 @@ Node.js is a framework that interprets commands you send to it. To test your ins
     </a>
 </div>
 
-```javascript
+
+```js
 var http = require('http');
 http.createServer(function (req, res) {
 res.writeHead(200, {'Content-Type': 'text/html'});
