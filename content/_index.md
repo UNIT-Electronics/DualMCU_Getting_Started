@@ -36,18 +36,18 @@ The main objective of this repository is to provide a comprehensive and structur
 Before diving into the proposed practices, it is crucial to familiarize yourself with the features and functionalities offered by the UNIT DUALMCU development board. This will enable you to make the most of its capabilities. The following section provides a general overview of its characteristics.
 ## Content
 - [DuaMCU Introduction to MycroPython](/)
-- [Board Features](/docs/1-descripcion-general/)
-- [MicroPython & ESP32](/docs/2-micropython/)
-- [LED Blinking](/docs/3-led_intermitente/)
-- [Temperaure Sensor ](/docs/4-sensor_de_temperatura/)
-- [Servo Control](/docs/5-control_servo/) 
-- [Alarm System](/docs/6-sistema_de_alarma/)
-- [Control Motors DC](/docs/7-control_de_motores_dc/)
-- [Threads](/docs/8-hilos/)
+- [Board Features](/dual/docs/1-descripcion-general/)
+- [MicroPython & ESP32](/dual/docs/2-micropython/)
+- [LED Blinking](/dual/docs/3-led_intermitente/)
+- [Temperaure Sensor ](/dual/docs/4-sensor_de_temperatura/)
+- [Servo Control](/dual/docs/5-control_servo/) 
+- [Alarm System](/dual/docs/6-sistema_de_alarma/)
+- [Control Motors DC](/dual/docs/7-control_de_motores_dc/)
+- [Threads](/dual/docs/8-hilos/)
 - [Monitoring Climbing System](/docs/9-sistema_de_monitoreo_ambiental/)
-- [OLED Control](/docs/10-control_de_pantalla_oled/)
-- [Wire Communication](/docs/11-comunicacion_inalambrica/)
-- [Communication Between Two Microcontrollers](/docs/12-comunicacion_esp32_rp2040/)
+- [OLED Control](/dual/docs/10-control_de_pantalla_oled/)
+- [Wire Communication](/dual/docs/11-comunicacion_inalambrica/)
+- [Communication Between Two Microcontrollers](/dual/docs/12-comunicacion_esp32_rp2040/)
 
 
 

@@ -148,5 +148,5 @@ Now, let's focus on the layout of the board elements, as it is crucial to unders
 |  SB6  | SDA Signal Selector Solder Bridge forATECC608A-MAHDA-T (default disconnected)|   B1  | Lipo Battery Solder Pads |
 
 
-#  Next course [MicroPython & ESP32](/docs/2-micropython/)
+#  Next course [MicroPython & ESP32](/dual/docs/2-micropython/)
 ⌨️ with ❤️ from [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊
