@@ -104,7 +104,7 @@ You will see the result in the serial shell:
 
 
 <div style="text-align: center;">
-    <img src="/docs/2-Micropython/images/result.png" alt="Block Diagram" title="Block Diagram">
+    <img src="/content/docs/2-Micropython/images/result.png" alt="Block Diagram" title="Block Diagram">
 </div>
 
 This simple step introduces you to the MicroPython environment and establishes the foundation for the following exercises. Explore and enjoy your MicroPython programming experience!
