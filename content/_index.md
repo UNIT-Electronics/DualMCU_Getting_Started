@@ -55,7 +55,7 @@ Before diving into the proposed practices, it is crucial to familiarize yourself
 
 
 -------------------------------------------
-# [Start Course](/docs/1-descripcion-general/)
+# [Start Course](/dual/docs/1-descripcion-general/)
 
 
 
