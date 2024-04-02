@@ -7,7 +7,7 @@ BookToC: false
 
 # Exercises with the DualMCU Board - MicroPython
 ## 4. Temperature Sensor 
-### Objetive 
+### Objective 
 Obtain the current temperature reading from the analog sensor LM35 and demonstrate the results by monitoring the serial output in Thonny IDE.
 
 >**NOTE** In this practices, you will use the microcontroller **RP2040**.
