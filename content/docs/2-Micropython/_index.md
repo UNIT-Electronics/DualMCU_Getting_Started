@@ -4,12 +4,15 @@ type: docs
 weight: 2
 BookToC: false
 ---
-# DualMCU ESP32: MicroPython
+# DualMCU: MicroPython
 
 
 --------------------------------------
 
 In this section, we will provide a basic example of installing MicroPython on the DualMCU ESP32 microcontroller. Our objective is to streamline this process, enabling you to seamlessly integrate it into your projects.
+
+- [Firmware ESP32](#esp32-firmware-update)
+- [Firmware RP2040](#rp2040-firmware-update)
 
 To begin, follow the simple connection diagram: connect the DualMCU unit using a USB Type-C connector. This initial step will allow you to explore and familiarize yourself with the functionality of MicroPython efficiently.
 
@@ -49,33 +52,56 @@ When you do this, the following window will open:
 </div>
 
 
-
-### Firmware Update
-
-initiate the DualMCU board  with the ESP32 microcontroller, and press the FLASH button, connect the device to the PC
+### ESP32 Firmware Update
+Start the DualMCU UNIT with the ESP32 microcontroller in **Position A** by pressing the FLASH button and connecting the device to the PC.
 
 <div style="text-align: center;">
     <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/flash.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
+1. Click on **"Install or Update MicroPython"**.
 
-1. Click on  **"Install or update Micropython (esptool) "**.
-
-1. A new window will open. 
-    - It is recommended to use the following configuration: 
-        - Variant: Espessif ESP32/WROOM
+2. A new window will open.
+    - It is recommended to use the following configuration:
+        - Variant: Espressif ESP32/WROOM
         - Version: 1.20.0
 
 <div style="text-align: center;">
-    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/instalador.png" alt="Block Diagram" title="Block Diagram" >
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/instalador.png" alt="Block Diagram" title="Block Diagram">
 </div>
 
-3. Press "Install" and wait for the installation to complete.
+3. Press install (wait for the installation to finish).
 
-Select board  in the part inferior of interface thonny. You can find options with format similar to figure for ESP32. The serial Port COM is assignament for pc .
+Select the board you want to work with at the bottom of Thonny. You can find this option in a format similar to the one shown in the following image for the ESP32. Note that the COM port is assigned by the machine and may vary.
 
 <div style="text-align: center;">
-    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/target.png" alt="Block Diagram" title="Block Diagram" >
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/target.png" alt="Block Diagram" title="Block Diagram">
+</div>
+
+### RP2040 Firmware Update
+Start the DualMCU UNIT with the RP2040 microcontroller in **Position B** by pressing the `BOOT` button and connecting the device to the PC.
+
+<div style="text-align: center;">
+    <img src="/DualMCU_Getting_Started/2-Micropython/images/RP2040-Boot_button.jpg" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+</div>
+
+1. Click on **"Install or Update MicroPython"**.
+
+2. A new window will open.
+    - It is recommended to use the following configuration:
+        - Variant: Raspberry Pi Pico/Pico H
+        - Version: 1.22.2
+
+<div style="text-align: center;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/config_intepeter_rp.png" alt="Block Diagram" title="Block Diagram">
+</div>
+
+3. Press install (wait for the installation to finish).
+
+Select the board you want to work with at the bottom of Thonny. You can find this option in a format similar to the one shown in the following image for the RP2040. Note that the COM port is assigned by the machine and may vary.
+
+<div style="text-align: center;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/target_rp.png" alt="Block Diagram" title="Block Diagram">
 </div>
 
 ## Loader your firts "Hello, World" 🌎
