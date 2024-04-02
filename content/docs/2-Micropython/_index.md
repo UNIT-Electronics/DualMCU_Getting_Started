@@ -82,7 +82,7 @@ Select the board you want to work with at the bottom of Thonny. You can find thi
 Start the DualMCU UNIT with the RP2040 microcontroller in **Position B** by pressing the `BOOT` button and connecting the device to the PC.
 
 <div style="text-align: center;">
-    <img src="/DualMCU_Getting_Started/2-Micropython/images/RP2040-Boot_button.jpg" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/RP2040-Boot_button.jpg" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 1. Click on **"Install or Update MicroPython"**.
