@@ -4,7 +4,7 @@ Comprehensive introductory course covering the fundamentals of DualMCU developme
 
 
 Main project `git`
-[Introductory Course with MicroPython]().
+[Introductory Course with MicroPython](https://unit-electronics.github.io/DualMCU_Getting_Started/).
 
 For information on resources, it is recommended to refer to the [official repository](https://github.com/UNIT-Electronics/DualMCU).
 
