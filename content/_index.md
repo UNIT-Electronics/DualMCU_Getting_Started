@@ -19,7 +19,7 @@ Before diving into the proposed practices, it is crucial to familiarize yourself
 - [MicroPython & ESP32](/DualMCU_Getting_Started/docs/2-micropython/)
 - [LED Blinking](/DualMCU_Getting_Started/docs/3-led_intermitente/)
 - [Temperaure Sensor ](/DualMCU_Getting_Started/docs/4-sensor_de_temperatura/)
-- [Servo Control](/DualMCU_Getting_Started/dual/docs/5-control_servo/) 
+- [Servo Control](/DualMCU_Getting_Started/docs/5-control_servo/) 
 - [Alarm System](/DualMCU_Getting_Started/docs/6-sistema_de_alarma/)
 - [Control Motors DC](/DualMCU_Getting_Started/docs/7-control_de_motores_dc/)
 - [Threads](/DualMCU_Getting_Started/docs/8-hilos/)
