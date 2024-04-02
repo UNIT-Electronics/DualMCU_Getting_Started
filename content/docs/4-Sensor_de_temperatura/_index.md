@@ -47,24 +47,24 @@ For using the ESP32 microcontroller, you need the additional materials mentioned
 > **NOTE:** Remember that when working with the DualMCU board, you can interchange between microcontrollers using interrupt-driven changes.
 
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 To proceed, here is the diagram illustrating the connection between the LM35 temperature sensor and the DualMCU development board using the RP2040 microcontroller.
 
 <div style="text-align: center;">
-    <img src="/dual/docs/4-Sensor_de_temperatura/images/AR3578_Diagrama_RP2.jpg" alt="Block Diagram" title="Block Diagram" >
+    <img src="/DualMCU_Getting_Started/docs/4-Sensor_de_temperatura/images/AR3578_Diagrama_RP2.jpg" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 If you prentent do the practicies using the microcontroller ESP32  use the next configuration:
 
-![](/docs/4-Sensor_de_temperatura/images/AR3578_Diagrama_ESP2.jpg)
+![](/DualMCU_Getting_Started/4-Sensor_de_temperatura/images/AR3578_Diagrama_ESP2.jpg)
 
 ## Code
 The following codes provide examples of how to use the LM35 temperature sensor with two different microcontrollers (RP2040 & ESP32). In both cases, configure the analog input to read the output from LM35 and obtain the temperature in degrees Celsius.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/4-Sensor_de_temperatura/code/unitESP32_adc.py" download="unitRP2040_adc.py">
+    <a href="/DualMCU_Getting_Started/docs/4-Sensor_de_temperatura/code/unitESP32_adc.py" download="unitRP2040_adc.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitRP2040_adc.py
         </button>
@@ -107,7 +107,7 @@ while True:
 The code for RP2040 utilizes MicroPython and Thonny to print temperature readings on a serial monitor. It sets the analog input pin, reads the value from LM35, ensuring continuous readings with a one-second interval wait.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/4-Sensor_de_temperatura/code/unitESP32_adc.py" download="unitESP32_adc.py">
+    <a href="/DualMCU_Getting_Started/docs/4-Sensor_de_temperatura/code/unitESP32_adc.py" download="unitESP32_adc.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32_adc.py
         </button>
@@ -163,7 +163,7 @@ In the case of the ESP32, the code also configures the analog input for a specif
 ### Results
 You can observe the temperature in degrees Celsius by monitoring the serial output.
 
-![](/dual/docs/4-Sensor_de_temperatura/images/sensor.png)
+![](/DualMCU_Getting_Started/docs/4-Sensor_de_temperatura/images/sensor.png)
 
 ## Conclusions
 This practice allowed for practical insights into reading analog temperature sensors and configuring the ADC in microcontrollers. It demonstrated how these microcontrollers can not only read data but also interact with external devices. Such capabilities are fundamental for developing projects that involve the measurement and control of analog variables in electronic environments.
@@ -172,7 +172,7 @@ This practice allowed for practical insights into reading analog temperature sen
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
 
-# Continue with the course [Servo Control](/dual/docs/5-control_servo/)
+# Continue with the course [Servo Control](/DualMCU_Getting_Started/docs/5-control_servo/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 ---

@@ -59,13 +59,13 @@ This practice will focus on creating a system to precisely control the speed and
 
 Diagrama para controlar un motor
 <div style="text-align: center;">
-<img src="/dual/docs/7-Control_de_motores_DC/images/UnMotor_bb.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+<img src="/DualMCU_Getting_Started/docs/7-Control_de_motores_DC/images/UnMotor_bb.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ## Connection Diagram control two motors
 
 <div style="text-align: center;">
-<img src="/dual/docs/7-Control_de_motores_DC/images/DosMotores_bb.png" alt="Block Diagram" title="Block Diagram" style="width: 700px;">
+<img src="/DualMCU_Getting_Started/docs/7-Control_de_motores_DC/images/DosMotores_bb.png" alt="Block Diagram" title="Block Diagram" style="width: 700px;">
 </div>
 
 ###  Code
@@ -74,12 +74,12 @@ Once the connections for a direct current (DC) motor are made, you can control t
 > **NOTE:** Code designed for MicroPython using the DualMCU with the RP2040 microprocessor. Remember that you can switch between microcontrollers using the USB selector.
  
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
     </div>
 
 
 <div style="text-align: right;">
-    <a href="/dual/docs/7-Control_de_motores_DC/code/unitRP2040_motors1.py" download="unitRP2040_motors1.py">
+    <a href="/DualMCU_Getting_Started/docs/7-Control_de_motores_DC/code/unitRP2040_motors1.py" download="unitRP2040_motors1.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitRP2040_motors1.py
         </button>
@@ -126,7 +126,7 @@ The next step is to control the motor speed, for which you will need to use PWM 
 #### Check the PWM values for different speeds, starting with the minimum and maximum values.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/7-Control_de_motores_DC/code/unitRP2040_motors2.py" download="unitRP2040_motors2.py">
+    <a href="/DualMCU_Getting_Started/docs/7-Control_de_motores_DC/code/unitRP2040_motors2.py" download="unitRP2040_motors2.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitRP2040_motors2.py
         </button>
@@ -193,7 +193,7 @@ Gathering workspace info
 Based on the previous codes, we can control two DC motors at the same time using the L298N driver with the help of the following code, where we control the speed, direction, and the turning on and off of the motors.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/7-Control_de_motores_DC/code/unitRP2040_motors3.py" download="unitRP2040_motors3.py">
+    <a href="/DualMCU_Getting_Started/docs/7-Control_de_motores_DC/code/unitRP2040_motors3.py" download="unitRP2040_motors3.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitRP2040_motors3.py
         </button>
@@ -271,17 +271,17 @@ l298n_enableB.off()
 ###  Results
 
 
-![Demo gif](/dual/docs/7-Control_de_motores_DC/images/carrito.gif)
+![Demo gif](/DualMCU_Getting_Started/docs/7-Control_de_motores_DC/images/carrito.gif)
 
 ### Conclusions
-This activity notably exemplifies control systems, having successfully developed a control system for DC motors. This achievement not only lays the foundation for various future projects, but also introduces several key concepts of MicroPython, PWM (Pulse Width Modulation), and a better approach to the Dual MCU development board.### Conclusions
 This activity notably exemplifies control systems, having successfully developed a control system for DC motors. This achievement not only lays the foundation for various future projects, but also introduces several key concepts of MicroPython, PWM (Pulse Width Modulation), and a better approach to the Dual MCU development board.
+
 
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
 
-# Continue with the course  [Threads](/dual/docs/8-hilos/)
+# Continue with the course  [Threads](/DualMCU_Getting_Started/docs/8-hilos/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 

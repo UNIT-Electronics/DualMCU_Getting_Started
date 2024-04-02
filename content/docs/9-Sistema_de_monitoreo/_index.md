@@ -27,20 +27,20 @@ The Environmental Monitoring System is fundamental for measuring and managing pa
 
 
 <div style="text-align: center;">
-<img src="/dual/docs/9-Sistema_de_monitoreo/images/AR3578Diagrama.jpg" alt="Block Diagram" title="Block Diagram" >
+<img src="/DualMCU_Getting_Started/docs/9-Sistema_de_monitoreo/images/AR3578Diagrama.jpg" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 >**NOTE**
 > Remember that when working with the DualMCU, you can switch between microcontrollers using the change switch. For this practice, we will only use the **ESP32** microcontroller, so you should switch the change switch to position "B".
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 
 ###  Code
 
 <div style="text-align: right;">
-    <a href="/dual/docs/9-Sistema_de_monitoreo/code/unitESP32_dth11.py" download="unitESP32_dth11.py">
+    <a href="/DualMCU_Getting_Started/docs/9-Sistema_de_monitoreo/code/unitESP32_dth11.py" download="unitESP32_dth11.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32_dth11.py
         </button>
@@ -102,7 +102,7 @@ During this practice, knowledge was acquired about the operation of two sensors,
 
 
 
-#  Continue with the course [OLED Control (I2C)](/dual/docs/10-control_de_pantalla_oled/)
+#  Continue with the course [OLED Control (I2C)](/DualMCU_Getting_Started/docs/10-control_de_pantalla_oled/)
 
 
 

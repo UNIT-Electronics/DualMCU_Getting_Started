@@ -24,13 +24,13 @@ The DualMCU board leverages the functionality of the ESP32 microcontroller as bo
 
 ### Connection Diagram
 <div style="text-align: center;">
-<img src="/docs/11-Comunicacion_inalambrica/images/diagrama.jpg" alt="Block Diagram" title="Block Diagram" >
+<img src="/DualMCU_Getting_Started/11-Comunicacion_inalambrica/images/diagrama.jpg" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 >**NOTE**
 > Remember that when working with the DualMCU, you can switch between microcontrollers using the change switch. For this practice, we will only use the **ESP32** microcontroller, so you should switch the change switch to position "B".
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ### Software
@@ -58,7 +58,7 @@ node -v
 ```
 
 <div style="text-align: center;">
-    <img src="/dual/docs/11-Comunicacion_inalambrica/images/node_version.png" alt="Block Diagram" title="Block Diagram" >
+    <img src="/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/images/node_version.png" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 You will see the installed version of Node.js. Next, verify the version of NPM using this command.
@@ -67,7 +67,7 @@ You will see the installed version of Node.js. Next, verify the version of NPM u
 npm -v
 ```
 <div style="text-align: center;">
-    <img src="/dual/docs/11-Comunicacion_inalambrica/images/npm_versiom.png" alt="Block Diagram" title="Block Diagram">
+    <img src="/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/images/npm_versiom.png" alt="Block Diagram" title="Block Diagram">
     </div>
 
 # Basic Use
@@ -77,7 +77,7 @@ Node.js is a framework that interprets commands you send to it. To test your ins
 2. Copy and paste this [code](./App/app.js):
 
 <div style="text-align: right;">
-    <a href="/dual/docs/11-Comunicacion_inalambrica/code/app.js" download="app.js">
+    <a href="/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/code/app.js" download="app.js">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download app.js
         </button>
@@ -107,10 +107,10 @@ You will see the text "Hello World!"
 > **NOTE** 
 >In some cases, when trying to access externally, a pop-up window may appear. You should allow access to Node.js through your firewall.
 
->![Firewall Popup Window](/dual/docs/11-Comunicacion_inalambrica/images/firewall_promt.png)
+>![Firewall Popup Window](/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/images/firewall_promt.png)
 ## Host Configuration
 
-Download or clone the repository. Find the example file in the [Control_web_panel](../Control_web_panel/) directory. As mentioned before regarding the environment configuration, you should run the file app.js with the following steps:
+Download or clone the repository. Find the example file in the [Control_web_panel](https://github.com/UNIT-Electronics/DualMCU_ESP32_Panel_de_control_Web/tree/main/Control_web_panel) directory. As mentioned before regarding the environment configuration, you should run the file app.js with the following steps:
 
 Open the Command Prompt or PowerShell and write the following commands, then press Enter.
 
@@ -126,7 +126,7 @@ Servidor en funcionamiento en 0.0.0.0:3000
 
  > http://localhost:8080
 
-![Image](/dual/docs/11-Comunicacion_inalambrica/images/web_localhost.png)
+![Image](/DualMCU_Getting_Starteddual/docs/11-Comunicacion_inalambrica/images/web_localhost.png)
 
 ## Client Configuration
 
@@ -166,7 +166,7 @@ server_url = "http://192.168.0.2:3000/endpoint"
 ## Code 
 
 <div style="text-align: right;">
-    <a href="/dual/docs/11-Comunicacion_inalambrica/code/unitESP32_wireless.py" download="unitESP32_wireless.py">
+    <a href="/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/code/unitESP32_wireless.py" download="unitESP32_wireless.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32_wireless.py
         </button>
@@ -334,12 +334,12 @@ Dirección IP: 192.168.0.10
 Puedes acceder a esta dirección IP desde cualquier dispositivo en la misma red.
 ```
 
-![ESP32](/dual/docs/11-Comunicacion_inalambrica/images/SOY_EL_esp32.png)
+![ESP32](/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/images/SOY_EL_esp32.png)
 
 The displayed interface controls the LED 25 of the ESP32 and allows to check the functionality of the project.
 
 Finally, the link with the interface integrated with the sending of information by the potentiometer will look something like this:
-![Interfaz](/dual/docs/11-Comunicacion_inalambrica/images/output.gif)
+![Interfaz](/DualMCU_Getting_Started/docs/11-Comunicacion_inalambrica/images/output.gif)
 
 
 ### Conclusion
@@ -349,7 +349,7 @@ The practice carried out with DualMCU as a client and server demonstrates the ve
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
 
-# Continue with the course [ Communication Between Two Microcontrollers](/dual/docs/12-comunicacion_esp32_rp2040/)
+# Continue with the course [ Communication Between Two Microcontrollers](/DualMCU_Getting_Started/docs/12-comunicacion_esp32_rp2040/)
 
 ###  DualMCU ESP32+RP2040 
 

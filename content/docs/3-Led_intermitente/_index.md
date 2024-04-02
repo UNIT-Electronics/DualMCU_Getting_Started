@@ -31,21 +31,21 @@ To carry out the program implementation, two RGB LEDs will be employed  are full
 ## Connection Diagram
 To proceed, simply connect the board DUALMCU to your laptop or desktop computer using a USB Type-C cable.
 
-![pc](/dual/docs/3-Led_intermitente/images/pc_dual.jpg)
+![pc](/DualMCU_Getting_Started/docs/3-Led_intermitente/images/pc_dual.jpg)
 
 ## Software 
 After connecting the DUALMCU unit to the computer, proceed to turn on the device and select the desired microcontroller (MCU).
        <div style="text-align: center;">
-       <img src="/dual/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
+       <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
        </div>
 
-> **NOTE**  In case the DUALMCU board is not recognized, it will be necessary to install the [CH340 driver](/dual/docs/3-Led_intermitente/images/CH341SER.EXE). This driver is crucial for establishing communication and programming with the ESP32 microcontroller.
+> **NOTE**  In case the DUALMCU board is not recognized, it will be necessary to install the [CH340 driver](/DualMCU_Getting_Started/docs/3-Led_intermitente/images/CH341SER.EXE). This driver is crucial for establishing communication and programming with the ESP32 microcontroller.
 
 ## Code
 
 Use the following code to verify the functionality of the MicroPython firmware installation. Ensure that the ESP32 microcontroller is selected, and load the following code.
 <div style="text-align: right;">
-    <a href="/dual/docs/3-Led_intermitente/code/blink.py" download="blink.py">
+    <a href="/DualMCU_Getting_Started/docs/3-Led_intermitente/code/blink.py" download="blink.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download blink.py
         </button>
@@ -88,7 +88,7 @@ This code is intended to test the configuration of the installed MicroPython for
 ## Results
 Below is the function's code demonstrated in the following gif:
 
-![](/dual/docs/3-Led_intermitente/images/blink_led2.gif)
+![](/DualMCU_Getting_Started/docs/3-Led_intermitente/images/blink_led2.gif)
 
 ## Interaction with the RP2040
 1. Ensure that the selector is always set to the position designated for RP2040 on the DualMCU.
@@ -121,7 +121,7 @@ These LED flashing exercises on the DualMCU board not only serve as an introduct
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
-# Continue with the course [ Temperaure Sensor (ADC)](/dual/docs/4-sensor_de_temperatura/)
+# Continue with the course [ Temperaure Sensor (ADC)](/DualMCU_Getting_Started/docs/4-sensor_de_temperatura/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 

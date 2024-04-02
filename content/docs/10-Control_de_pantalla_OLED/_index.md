@@ -32,17 +32,17 @@ Additionally, mention that I2C communication is used as the communication protoc
 >**NOTE**
 > Remember that when working with the DualMCU, you can switch between microcontrollers using the change switch. For this practice, we will only use the **ESP32** microcontroller, so you should switch the change switch to position "B".
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 The next diagram illustrates the communication between one of the two microcontrollers and the ability to display a default text on the OLED screen.
 <div style="text-align: center;">
-<img src="/dual/docs/10-Control_de_pantalla_OLED/images/OLED1.jpg" alt="Block Diagram" title="Block Diagram" >
+<img src="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/images/OLED1.jpg" alt="Block Diagram" title="Block Diagram" >
 </div>
 Another option for connection is a direct connection to the I2C Qwiic communication pins for the ESP32.
 
 <div style="text-align: center;">
-<img src="/dual/docs/10-Control_de_pantalla_OLED/images/qwiic.png" alt="Block Diagram" title="Block Diagram" style="width: 200px;">
+<img src="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/images/qwiic.png" alt="Block Diagram" title="Block Diagram" style="width: 200px;">
 </div>
 
 ### Software
@@ -50,7 +50,7 @@ Another option for connection is a direct connection to the I2C Qwiic communicat
 To simplify programming with  OLED screen, use a specific library for OLED control. Here is an alternative for easy control. Copy or download the code and save the file as **ssd1306.py** on the DualMCU board.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/10-Control_de_pantalla_OLED/code/ssd1306.py" download="ssd1306.py">
+    <a href="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/code/ssd1306.py" download="ssd1306.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download ssd1306.py
         </button>
@@ -223,7 +223,7 @@ class SSD1306_SPI(SSD1306):
 
 To save the library code on the DualMCU board, you should use the name `ssd1306.py`
 <div style="text-align: center;">
-    <img src="/dual/docs/10-Control_de_pantalla_OLED/images/OLED_V2.jpg" alt="Block Diagram" title="Block Diagram" >
+    <img src="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/images/OLED_V2.jpg" alt="Block Diagram" title="Block Diagram" >
     </div>
 
 ### Code
@@ -231,7 +231,7 @@ To save the library code on the DualMCU board, you should use the name `ssd1306.
 
 Once you have saved the program as instructed before, proceed to open a new file for programming. Use the following code, and the display will show the text “UNIT ELECTRONICS”:
 <div style="text-align: right;">
-    <a href="/dual/docs/10-Control_de_pantalla_OLED/code/unitRP2040_oled.py" download="unitESP32_oled.py">
+    <a href="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/code/unitRP2040_oled.py" download="unitESP32_oled.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32_oled.py
         </button>
@@ -271,7 +271,7 @@ oled.show()
 The next image can illustrate the test of functionality.
 
 <div style="text-align: center;">
-<img src="/dual/docs/10-Control_de_pantalla_OLED/images/oled.jpg" alt="Block Diagram" title="Block Diagram" style="width: 500px;">
+<img src="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/images/oled.jpg" alt="Block Diagram" title="Block Diagram" style="width: 500px;">
 </div>
 
 
@@ -286,7 +286,7 @@ Now it will be your turn to display information from a sensor. Additionally, we 
 Keep in mind that this is just a framework, and you will need to implement the `getCurrentTime`, `createCountdown`, and `readSensorData` functions according to your needs. You will also need to include the appropriate libraries for your microcontroller and sensors.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/10-Control_de_pantalla_OLED/code/unitRP2040_oled2.py" download="unitESP32_oled2.py">
+    <a href="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/code/unitRP2040_oled2.py" download="unitESP32_oled2.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32_oled2.py
         </button>
@@ -374,7 +374,7 @@ while True:
 ```
 
 <div style="text-align: center;">
-<img src="/dual/docs/10-Control_de_pantalla_OLED/images/oled_hora.gif" alt="Block Diagram" title="Block Diagram" >
+<img src="/DualMCU_Getting_Started/docs/10-Control_de_pantalla_OLED/images/oled_hora.gif" alt="Block Diagram" title="Block Diagram" >
 </div>
 
 ### Conclusions
@@ -384,7 +384,7 @@ In this context, it is encouraged to replicate the same practice using the RP204
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
-# Continue with the course [wireless communication](/dual/docs/11-comunicacion_inalambrica/)
+# Continue with the course [wireless communication](/DualMCU_Getting_Started/docs/11-comunicacion_inalambrica/)
 * [Licencia](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 
 ---

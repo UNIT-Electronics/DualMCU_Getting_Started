@@ -32,14 +32,14 @@ To proceed, here's a connection diagram between the Motion sensor AM312 and the 
 
 Additionally, for programming the DualMCU, select the configuration for using ESP32.
 <div style="text-align: center;">
-<img src="/dual/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
+<img src="/DualMCU_Getting_Started/docs/2-Micropython/images/esp32_or_rasp.jpg" alt="Block Diagram" title="Block Diagram" style="width: 300px;">
 </div>
 
 ## Code
 The following code manages the motion sensor and activates the audible alarm using a buzzer. This code can serve as a starting point for creating a more advanced system.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/6-Sistema_de_Alarma/code/unitRP2040_pir.py" download="unitESP32_pir.py">
+    <a href="/DualMCU_Getting_Started/docs/6-Sistema_de_Alarma/code/unitRP2040_pir.py" download="unitESP32_pir.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32_pir.py
         </button>
@@ -77,7 +77,7 @@ while True:
 Upon running the script, you will first receive a system-ready message. Subsequently, if motion is detected, a message will be sent to the buzzer, triggering an alert for the movement.
  
 <div style="text-align: center;">
-<img src="/dual/docs/6-Sistema_de_Alarma/images/cap.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+<img src="/DualMCU_Getting_Started/docs/6-Sistema_de_Alarma/images/cap.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ## Conclusions 

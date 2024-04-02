@@ -23,7 +23,7 @@ In the context of technical features, the DualMCU stands out as a unique develop
 <table>
     <tr>
         <td>
-            <img src="/dual/docs/1-Descripcion-general/images/dual.png" alt="Block Diagram" title="Block Diagram" style="width: 500px;">
+            <img src="/DualMCU_Getting_Started/docs/1-Descripcion-general/images/dual.png" alt="Block Diagram" title="Block Diagram" style="width: 500px;">
         </td>
         <td>
             <strong>Manufacturer:</strong> UNIT ELECTRONICS<br>
@@ -47,7 +47,7 @@ In the context of technical features, the DualMCU stands out as a unique develop
 
 Now, let's focus on the layout of the board elements, as it is crucial to understand the location of each component for ease of use.
 
-**Front View**![Block_Diagram](/dual/docs/1-Descripcion-general/images/Front_View_DualMCU_Topology.jpg "Block Diagram")
+**Front View**![Block_Diagram](/DualMCU_Getting_Started/docs/1-Descripcion-general/images/Front_View_DualMCU_Topology.jpg "Block Diagram")
 
 | Ref. | Description | Ref. | Description
 |----------|----------|----------|-------|
@@ -64,7 +64,7 @@ Now, let's focus on the layout of the board elements, as it is crucial to unders
 |  JST2  |ESP32 I2C JST Conector   |   JST3  | JST Connector for LiPo Battery |
 |  SW2  |USB Communication Selector   |   SW3  | UART DIP Switch |
 
-**Back View**![Block_Diagram](/dual/docs/1-Descripcion-general/images/Back_View_DualMCU_Topology.jpg "Block Diagram")
+**Back View**![Block_Diagram](/DualMCU_Getting_Started/docs/1-Descripcion-general/images/Back_View_DualMCU_Topology.jpg "Block Diagram")
 
 
 | Ref. | Description | Ref. | Description
@@ -76,5 +76,5 @@ Now, let's focus on the layout of the board elements, as it is crucial to unders
 |  SB6  | SDA Signal Selector Solder Bridge forATECC608A-MAHDA-T (default disconnected)|   B1  | Lipo Battery Solder Pads |
 
 
-#  Next course [MicroPython & ESP32](/dual/docs/2-micropython/)
+#  Next course [MicroPython & ESP32](/DualMCU_Getting_Started/docs/2-micropython/)
 ⌨️ with ❤️ from [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊

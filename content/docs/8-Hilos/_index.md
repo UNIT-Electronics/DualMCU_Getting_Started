@@ -23,7 +23,7 @@ The following code implements two threads in MicroPython for ESP32. One thread i
 > Remember that when working with the DualMCU, you can switch between microcontrollers using the change switch. For this practice, we will only use the **ESP32** microcontroller, so you should switch the change switch to position "B".
 
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 ###	 Materials
@@ -33,7 +33,7 @@ The following code implements two threads in MicroPython for ESP32. One thread i
 
 
 ### Connection Diagram
-![pc](/dual/docs/3-Led_intermitente/images/pc_dual.jpg)
+![pc](/DualMCU_Getting_Started/docs/3-Led_intermitente/images/pc_dual.jpg)
 
 ### Code
 
@@ -42,7 +42,7 @@ The code creates two threads: one to increment a shared variable and another to 
 The threads run for 10 seconds before terminating.
 
 <div style="text-align: right;">
-    <a href="/dual/docs/8-Hilos/code/unitRP2040_threads.py" download="unitESP32_threads.py">
+    <a href="/DualMCU_Getting_Started/docs/8-Hilos/code/unitRP2040_threads.py" download="unitESP32_threads.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitESP32.py
         </button>
@@ -91,7 +91,7 @@ time.sleep(10)
 
 In the image provided below, a screenshot of the output obtained when using threads is presented. The visual representation offers a more concrete view of how the threads are interacting and sharing data during the execution of the code.
 
-![pc](/dual/docs/8-Hilos/images/shell.png)
+![pc](/DualMCU_Getting_Started/docs/8-Hilos/images/shell.png)
 
 ## Conclusion
 The  code for MicroPython for ESP32 shows the implementation of threads to facilitate concurrent data exchange. The main functionality focuses on two threads: one to increment a shared variable and another to print that value. This basic example provides a practical introduction to the use of threads in a MicroPython environment.
@@ -99,7 +99,7 @@ The  code for MicroPython for ESP32 shows the implementation of threads to facil
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
-# Continue with the course [Environmental Monitoring System](/dual/docs/9-sistema_de_monitoreo/)
+# Continue with the course [Environmental Monitoring System](/DualMCU_Getting_Started/docs/9-sistema_de_monitoreo/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 

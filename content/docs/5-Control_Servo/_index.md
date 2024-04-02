@@ -29,7 +29,7 @@ This section demonstrates a combination of resources and code design for control
 To continue, this section presents a connection diagram, which is straightforward. You only need to connect the DualMCU board to the servo motor according to the diagram and load effective control of the servo motor.
 
 <div style="text-align: center;">
-    <img src="/dual/docs/5-Control_Servo/images/Diagrama.jpg" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/5-Control_Servo/images/Diagrama.jpg" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 >**NOTE** 
@@ -37,7 +37,7 @@ To continue, this section presents a connection diagram, which is straightforwar
 
 
 <div style="text-align: center;">
-    <img src="/dual/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
+    <img src="/DualMCU_Getting_Started/docs/2-Micropython/images/selector.png" alt="Block Diagram" title="Block Diagram" style="width: 600px;">
 </div>
 
 
@@ -45,7 +45,7 @@ To continue, this section presents a connection diagram, which is straightforwar
 
 The code serves as an example for RP2040, configuring the output destined for the servo motor and controlling it using the GPIO 0 output.
 <div style="text-align: right;">
-    <a href="/dual/docs/5-Control_Servo/code/unitRP2040_pwm.py" download="unitRP2040_pwm.py">
+    <a href="/DualMCU_Getting_Started/docs/5-Control_Servo/code/unitRP2040_pwm.py" download="unitRP2040_pwm.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitRP2040_pwm.py
         </button>
@@ -95,14 +95,14 @@ except KeyboardInterrupt:
 ```
 
 
-![](/dual/docs/5-Control_Servo/images/pwm_osc.gif)
+![](/DualMCU_Getting_Started/docs/5-Control_Servo/images/pwm_osc.gif)
 
 
 The code provides a solid foundation for controlling servo motors with RP2040 and can be easily adapted to the specific characteristics of other servo motors. The ability to configure parameters such as frequency and angles makes this code versatile and applicable to a variety of projects that require precise control of servo motors.
 
 
 <div style="text-align: right;">
-    <a href="/dual/docs/5-Control_Servo/code/unitRP2040_servo.py" download="unitRP2040_servo.py">
+    <a href="/DualMCU_Getting_Started/docs/5-Control_Servo/code/unitRP2040_servo.py" download="unitRP2040_servo.py">
         <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
             Download unitRP2040_servo.py
         </button>
@@ -152,7 +152,7 @@ The function `set_servo_angle(angle)` converts the given angle into a specific p
 ---
 
 
-![](/dual/docs/5-Control_Servo/images/pwm_servo.gif)
+![](/DualMCU_Getting_Started/docs/5-Control_Servo/images/pwm_servo.gif)
 
 
 ### Results
@@ -174,7 +174,7 @@ To further advance these skills, it is recommended to review and experiment with
 
 In order to enhance your skills, you can check the example related to PWM in the [DualMCU repository](https://github.com/UNIT-Electronics/DualMCU/blob/main/Examples/Micropython%20Basics/RP2040/02.PWM/PWM.py)
 
-# Continue with the course [Alarm System](/dual/docs/6-sistema_de_alarma/)
+# Continue with the course [Alarm System](/DualMCU_Getting_Started/docs/6-sistema_de_alarma/)
 
 * [License](https://www.gnu.org/licenses/gpl-3.0.html) The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 ---
