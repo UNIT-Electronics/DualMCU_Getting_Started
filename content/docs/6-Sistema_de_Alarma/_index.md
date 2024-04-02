@@ -87,7 +87,7 @@ Creating a system to recognize the GPIO terminal I/O configuration of the DualMC
 
 > **NOTE:** Keep in mind that the presented codes are only examples and may require configuration adjustments according to specific needs and requirements.
 
-# Continue with the course [Control Motors DC](/dual/docs/7-control_de_motores_dc/)
+# Continue with the course [Control Motors DC](/DualMCU_Getting_Started/docs/7-control_de_motores_dc/)
 
 
 

@@ -351,14 +351,5 @@ The practice carried out with DualMCU as a client and server demonstrates the ve
 
 # Continue with the course [ Communication Between Two Microcontrollers](/DualMCU_Getting_Started/docs/12-comunicacion_esp32_rp2040/)
 
-###  DualMCU ESP32+RP2040 
-
-For more information, refer to the
-
-* https://uelectronics.com/
-* [Hardware-DualMCU](https://github.com/UNIT-Electronics/DualMCU/tree/main/Hardware)
-* [Product Reference Manual.pdf](https://github.com/UNIT-Electronics/DualMCU/blob/main/DualMCU(Product%20Reference%20Manual).pdf)
-* [C++ & Micropython Examples files for the UNIT DualMCU.](https://github.com/UNIT-Electronics/DualMCU/tree/main/Examples)
-* [Licencia](https://www.gnu.org/licenses/gpl-3.0.html)  The code presented in this repository is licensed under the GNU General Public License (GPL) version 3.0.
 
 ⌨️ with ❤️ from [UNIT-Electronics](https://github.com/UNIT-Electronics) 😊
